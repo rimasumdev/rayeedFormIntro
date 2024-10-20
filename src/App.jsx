@@ -1,4 +1,4 @@
-// import Form from "./components/Forms/Form";
+import Form from "./components/Forms/Form";
 import HookForm from "./components/Hook/HookForm";
 function App() {
   const handleSignUp = (name, email) => {
@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <h1 className="text-2xl font-bold text-center">React Form Intro</h1>
-      {/* <Form /> */}
+      <Form />
       <HookForm
         title="Sign Up"
         subtitle="Please sign up to our website"
